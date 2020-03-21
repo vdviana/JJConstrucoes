@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.Master.cs" Inherits="JML_JJConstrucoes_PL.Admin.Estilos.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>ACESSO ADMINISTRATIVO JJ CONSTRUÇÕES</title>
+        <link rel="stylesheet" type="text/css" href="../Estilos/principal.css" />  
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    
+        <style type="text/css">
+            .auto-style1 { height: 70px; }
+
+            .auto-style2 { height: 37px; }
+
+            .auto-style3 { height: 46px; }
+
+            .auto-style4 { height: 50px; }
+
+            .auto-style5 { height: 43px; }
+
+            .auto-style6 { height: 47px; }
+
+            .auto-style7 { height: 45px; }
+
+            .auto-style8 { width: 100%; }
+        </style>
+    
+    </head>
+    
+    <body>
+        <div id="tudoLogado">
+            <form id="form1" runat="server">
+                <div id="linkJML">
+                    <a href="http://www.jmlsolucoes.com.br">
+                    <asp:Image ID="imgLinkJml" runat="server" ImageUrl="~/Estilos/Imagens/icone_logo_jml.png" />
+                    </a>
+                </div>
+                <div id="rodape">
+                    :: JJ Construções  Todos os Direitos Reservados  ::
+                </div>
+                <div id="menu">
+
+                    <table style="height: 356px; width: 100%;">
+                        <tr>
+                            <td class="auto-style1"></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2"> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:LinkButton ID="lbtnMsg" runat="server" PostBackUrl="~/admin/home.aspx">Home</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnCadUsu" runat="server" PostBackUrl="~/admin/cadastro.aspx">Cadastrar Usuários</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnExcluiUsu" runat="server" PostBackUrl="~/admin/contas.aspx">Administrar Contas</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnInsereFoto" runat="server" PostBackUrl="~/admin/imagem.aspx">Publicar nova Imagem</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnInsereNoticia" runat="server" PostBackUrl="~/admin/artigo.aspx">Publicar novo Artigo</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnSair" runat="server" PostBackUrl="~/default.aspx">Sair</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+
+                </div> 
+                <div id="topo">
+
+                </div>
+                <div id="logo">
+                    <asp:ImageButton ID="ibtnLogo" runat="server" ImageUrl="~/admin/Estilos/Imagens/admin.png" PostBackUrl="~/admin/home.aspx" />
+                </div>
+                <div id="img">
+
+                </div>
+                <div id="cont_site">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        <table class="auto-style8">
+                            <tr>
+                                <td>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                </td>
+                            </tr>
+                        </table>
+        
+                    </asp:ContentPlaceHolder>
+
+                </div>   
+    
+    
+            </form>
+        </div>
+        <asp:ContentPlaceHolder runat="server" ID="HeadContent"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder runat="server" ID="MainContent"></asp:ContentPlaceHolder>
+    </body>
+</html>

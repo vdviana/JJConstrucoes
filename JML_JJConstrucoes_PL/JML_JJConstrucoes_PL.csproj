@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{413C4F93-DE49-430C-BAF8-0372DE3A5BB2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JML_JJConstrucoes_PL</RootNamespace>
+    <AssemblyName>JML_JJConstrucoes_PL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Desenvolvimento\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\css\default.css" />
+    <Content Include="css\bg_links.png" />
+    <Content Include="css\bg_nav.png" />
+    <Content Include="css\bg_thumbs.png" />
+    <Content Include="css\bg_thumbs_h.png" />
+    <Content Include="css\bg_title.png" />
+    <Content Include="css\bg_up.png" />
+    <Content Include="css\box_left.png" />
+    <Content Include="css\content.png" />
+    <Content Include="css\css.css" />
+    <Content Include="css\footer.png" />
+    <Content Include="css\footer_down.png" />
+    <Content Include="css\info.png" />
+    <Content Include="css\links.png" />
+    <Content Include="css\links_h.png" />
+    <Content Include="css\logo4.png" />
+    <Content Include="css\main.png" />
+    <Content Include="css\mixed.png" />
+    <Content Include="css\question.png" />
+    <Content Include="css\Sansation\stylesheet.css" />
+    <Content Include="css_pirobox\style_1\bottom_nav.png" />
+    <Content Include="css_pirobox\style_1\caption.png" />
+    <Content Include="css_pirobox\style_1\close.png" />
+    <Content Include="css_pirobox\style_1\loadinfo.gif" />
+    <Content Include="css_pirobox\style_1\new_skin.png" />
+    <Content Include="css_pirobox\style_1\new_skin_left.png" />
+    <Content Include="css_pirobox\style_1\new_skin_top.png" />
+    <Content Include="css_pirobox\style_1\next.png" />
+    <Content Include="css_pirobox\style_1\prev.png" />
+    <Content Include="css_pirobox\style_1\style.css" />
+    <Content Include="css_pirobox\style_2\bottom_nav.png" />
+    <Content Include="css_pirobox\style_2\caption.png" />
+    <Content Include="css_pirobox\style_2\close.png" />
+    <Content Include="css_pirobox\style_2\loadinfo.gif" />
+    <Content Include="css_pirobox\style_2\new_skin.png" />
+    <Content Include="css_pirobox\style_2\new_skin_left.png" />
+    <Content Include="css_pirobox\style_2\new_skin_top.png" />
+    <Content Include="css_pirobox\style_2\next.png" />
+    <Content Include="css_pirobox\style_2\prev.png" />
+    <Content Include="css_pirobox\style_2\style.css" />
+    <Content Include="Estilos\botões\black curved Delete.jpg" />
+    <Content Include="admin\imagem.aspx" />
+    <Content Include="admin\artigo.aspx" />
+    <Content Include="admin\cadastro.aspx" />
+    <Content Include="admin\contas.aspx" />
+    <Content Include="admin\home.aspx" />
+    <Content Include="admin\novaimagem.aspx" />
+    <Content Include="admin\Estilos\Imagens\admin.png" />
+    <Content Include="admin\Estilos\Imagens\btnLogin.png" />
+    <Content Include="admin\Estilos\Imagens\fundo.png" />
+    <Content Include="admin\Estilos\Imagens\img_apoio.png" />
+    <Content Include="admin\Estilos\Imagens\menu_late.png" />
+    <Content Include="admin\Estilos\Imagens\topo.png" />
+    <Content Include="admin\Estilos\principal.css" />
+    <Content Include="admin\login.aspx" />
+    <Content Include="admin\novoartigo.aspx" />
+    <Content Include="admin\mensagem.aspx" />
+    <Content Include="contato.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="empresa.aspx" />
+    <Content Include="Estilos\Imagens\banner.jpg" />
+    <Content Include="Estilos\Imagens\fundo.png" />
+    <Content Include="Estilos\Imagens\icone_logo_jml.png" />
+    <Content Include="Estilos\Imagens\img_apoio.png" />
+    <Content Include="Estilos\Imagens\logo.png" />
+    <Content Include="Estilos\Imagens\menu_late.png" />
+    <Content Include="Estilos\Imagens\topo.png" />
+    <Content Include="Estilos\principal.css" />
+    <Content Include="galeria.aspx" />
+    <Content Include="Galeria\default.txt" />
+    <Content Include="js\error.jpg" />
+    <Content Include="js\jquery-ui-1.8.2.custom.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\pirobox_extended.js" />
+    <Content Include="js\pirobox_extended_min.js" />
+    <Content Include="noticias.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\imagem.aspx.cs">
+      <DependentUpon>imagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\imagem.aspx.designer.cs">
+      <DependentUpon>imagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\artigo.aspx.cs">
+      <DependentUpon>artigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\artigo.aspx.designer.cs">
+      <DependentUpon>artigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\cadastro.aspx.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\cadastro.aspx.designer.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\contas.aspx.cs">
+      <DependentUpon>contas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\contas.aspx.designer.cs">
+      <DependentUpon>contas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\novaimagem.aspx.cs">
+      <DependentUpon>novaimagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\novaimagem.aspx.designer.cs">
+      <DependentUpon>novaimagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Estilos\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Estilos\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\novoartigo.aspx.cs">
+      <DependentUpon>novoartigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\novoartigo.aspx.designer.cs">
+      <DependentUpon>novoartigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\mensagem.aspx.cs">
+      <DependentUpon>mensagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\mensagem.aspx.designer.cs">
+      <DependentUpon>mensagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contato.aspx.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contato.aspx.designer.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="empresa.aspx.cs">
+      <DependentUpon>empresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="empresa.aspx.designer.cs">
+      <DependentUpon>empresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Estilos\Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estilos\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galeria.aspx.cs">
+      <DependentUpon>galeria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galeria.aspx.designer.cs">
+      <DependentUpon>galeria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="noticias.aspx.cs">
+      <DependentUpon>noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="noticias.aspx.designer.cs">
+      <DependentUpon>noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\Estilos\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\Estilos\Login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estilos\Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estilos\Site.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\JML_JJConstrucoes_BLL\JML_JJConstrucoes_BLL.csproj">
+      <Project>{4f12d59f-3dd7-4a8e-bd88-3b660e99282f}</Project>
+      <Name>JML_JJConstrucoes_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JML_JJConstrucoes_CLL\JML_JJConstrucoes_CLL.csproj">
+      <Project>{1dfb4753-e1c3-4e23-b4eb-67b11c9aa244}</Project>
+      <Name>JML_JJConstrucoes_CLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JML_JJConstrucoes_GLL\JML_JJConstrucoes_GLL.csproj">
+      <Project>{eebd1639-0cc5-4fba-8309-a3e7597c34ed}</Project>
+      <Name>JML_JJConstrucoes_GLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\JJ Construções.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51424</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52892/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

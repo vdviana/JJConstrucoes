@@ -1,0 +1,5 @@
+E:\Usuários\Jonathan\SkyDrive\Documentos\PROJETOS\JJ Construções\JML_JJConstrucoes_MDL\bin\JML_JJConstrucoes_MDL.dll
+E:\Usuários\Jonathan\SkyDrive\Documentos\PROJETOS\JJ Construções\JML_JJConstrucoes_MDL\bin\JML_JJConstrucoes_MDL.pdb
+E:\Usuários\Jonathan\SkyDrive\Documentos\PROJETOS\JJ Construções\JML_JJConstrucoes_MDL\obj\Debug\JML_JJConstrucoes_MDL.dll
+E:\Usuários\Jonathan\SkyDrive\Documentos\PROJETOS\JJ Construções\JML_JJConstrucoes_MDL\obj\Debug\JML_JJConstrucoes_MDL.pdb
+E:\Usuários\Jonathan\SkyDrive\Documentos\PROJETOS\JJ Construções\JML_JJConstrucoes_MDL\obj\Debug\JML_JJConstrucoes_MDL.csprojResolveAssemblyReference.cache

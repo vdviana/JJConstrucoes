@@ -1,0 +1,28 @@
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.dll
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.pdb
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.dll
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.pdb
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.csprojResolveAssemblyReference.cache
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.dll
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.pdb
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.dll
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.pdb
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.dll
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.pdb
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.dll
+C:\Users\Jonathan\Desktop\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.pdb
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.dll
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.pdb
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.dll
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.pdb
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.csprojResolveAssemblyReference.cache
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.dll
+C:\Users\ViniciusPSK\Downloads\JJ Construções\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.pdb
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.dll
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_GLL.pdb
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.dll
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\bin\JML_JJConstrucoes_BLL.pdb
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.dll
+C:\Users\Vinicius_WS\Documents\Projetos\JJ Construções_Funcional\JJ Construções\JML_JJConstrucoes_GLL\obj\Debug\JML_JJConstrucoes_GLL.pdb

@@ -1,0 +1,5 @@
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_BLL\bin\JML_JJConstrucoes_BLL.dll
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_BLL\bin\JML_JJConstrucoes_BLL.pdb
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_BLL\obj\Release\JML_JJConstrucoes_BLL.dll
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_BLL\obj\Release\JML_JJConstrucoes_BLL.pdb
+E:\PROJETOS\JJ Construções\JML_JJConstrucoes_BLL\obj\Release\JML_JJConstrucoes_BLL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.Master.cs" Inherits="JML_JJConstrucoes_PL.Estilos.DefaultMaster" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>JJ CONSTRUÇÕES</title>
+        <link rel="stylesheet" type="text/css" href="../Estilos/principal.css" />
+    
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    
+        <style type="text/css">
+            .auto-style1 { height: 70px; }
+
+            .auto-style2 { height: 37px; }
+
+            .auto-style4 { height: 50px; }
+
+            .auto-style5 { height: 43px; }
+
+            .auto-style6 { height: 47px; }
+
+            .auto-style7 { height: 45px; }
+            .auto-style8 {
+                width: 278px;
+            }
+            .auto-style9 {
+                width: 489px;
+            }
+            
+         </style>
+    
+    </head>
+    
+    <body>
+        <div id="tudo">
+            <form id="form1" runat="server">
+                <div id="rodape">
+                ::: JJ Construções  Todos os Direitos Reservados  ::
+                
+                </div>
+                <div id="linkJML">
+                    <a href="http://www.jmlsolucoes.com.br">
+                    <asp:Image ID="imgLinkJml" runat="server" ImageUrl="~/Estilos/Imagens/icone_logo_jml.png" />
+                    </a>
+                </div>
+                <div id="menu">
+
+                    <table style="height: 356px; width: 100%;">
+                        <tr>
+                            <td class="auto-style1"></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2"> 
+                                <asp:TextBox ID="txtPesquisa" runat="server" Width="145px" style="color: #CCCCCC; font-style: italic" Visible="False"></asp:TextBox> 
+                                <asp:TextBoxWatermarkExtender ID="txtPesquisa_TextBoxWatermarkExtender" runat="server" Enabled="True" TargetControlID="txtPesquisa" WatermarkText="Pesquisar Notícias">
+                                </asp:TextBoxWatermarkExtender>
+                                <asp:Button ID="btnPesquisa" runat="server" Text="OK" Width="45px" OnClick="BtnPesquisaClick" Visible="False" /></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnEmpresa" runat="server" PostBackUrl="~/empresa.aspx">A Empresa</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnNossosServ" runat="server" PostBackUrl="~/noticias.aspx">Notícias</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:LinkButton ID="lbtnGaleriaFotos" runat="server" PostBackUrl="~/galeria.aspx">Galeria</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="lbtnFale" runat="server" PostBackUrl="~/contato.aspx">Fale conosco</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:LinkButton ID="lbtnLogin" runat="server" PostBackUrl="~/admin/login.aspx">Area Administrativa</asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div> 
+                <div id="topo">
+
+                </div>
+                <div id="logo">
+                    <asp:ImageButton ID="ibtnLogo" runat="server" ImageUrl="~/Estilos/Imagens/logo.png" PostBackUrl="~/default.aspx" />
+                </div>
+                <div id="banner">
+
+
+                    <asp:Image ID="imgBanner" runat="server" Height="341px" ImageUrl="~/Estilos/Imagens/banner.jpg" />
+
+
+                </div>   
+                <div id="img">
+
+                </div>
+                <div id="cont_home">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        <p>
+                            <br />
+                        </p>
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </div>
+        <asp:ContentPlaceHolder runat="server" ID="HeadContent"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder runat="server" ID="MainContent"></asp:ContentPlaceHolder>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+INSERT INTO tbl_usuario(nivel_acesso, nome_usuario, telefone_usuario, email_usuario, senha_usuario)
+	VALUES ('1', 'Usuário Teste', '(11) 1234-5678', 'admin@admin.com', 'D033E22AE348AEB5660FC2140AEC35850C4DA997')
